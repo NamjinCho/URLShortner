@@ -14,7 +14,7 @@ app.get('/url/:longUrl', function(req, res){
 
   Urls.findOne({url: req.params.longUrl}, function (err, doc){
     if (doc){
-      res.send({'key': doc._id});
+      res.send({'key': bijective.decode(doc._id)});
     } else {
 
       var newUrl = Urls({

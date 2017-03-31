@@ -1,0 +1,25 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "urlshortner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamjinCho/URLShortner.git"
+  },
+  "keywords": [
+    "urlshortner"
+  ],
+  "author": "namjinCho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NamjinCho/URLShortner/issues"
+  },
+  "homepage": "https://github.com/NamjinCho/URLShortner#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
